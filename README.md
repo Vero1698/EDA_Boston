@@ -1,7 +1,7 @@
 # EDA_Boston
 ## Step 1:
 We start to import all libraries that we will use for dataset of Boston
-
+````Python
 from sklearn import datasets
 import numpy as np
 import pandas as pd
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 ## Step 2:
 Function that get the target name of the file and return the name of the values
-
+````Python
 def bostons(value):
     boston = boston_dat.target_names[value]
     return boston
